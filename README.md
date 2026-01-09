@@ -1,3 +1,38 @@
+## 🚀 Installation & Setup
+
+Follow these steps to run the project locally:
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/ecommerce-backend.git
+cd ecommerce-backend
+Create Virtual Environment
+python -m venv venv
+
+
+Activate the virtual environment:
+
+Linux / Mac
+
+source venv/bin/activate
+
+
+Windows
+
+venv\Scripts\activate
+
+3️⃣ Install Dependencies
+pip install -r requirements.txt
+
+4️⃣ Apply Migrations
+python manage.py makemigrations
+python manage.py migrate
+
+5️⃣ Create Superuser
+python manage.py createsuperuser
+
+6️⃣ Run the Development Server
+python manage.py runserver
 # 🛒 E-Commerce Backend Project (Django)
 
 This repository contains the backend implementation of an **E-commerce application** built using **Django** and **Django REST Framework (DRF)**.  
